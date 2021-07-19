@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(52, 52, 197);
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.card {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background: rgb(99, 171, 196);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #000;
+}
+.card:hover {
+    cursor: pointer;
+    border: 3px solid black;
+}
+.card p {
+    font-size: 50px;
+    color: rgb(0, 0, 0)
+}
+
+h1 {
+    font-size: 150px;
+    color: rgb(100, 3, 79);
+    position: absolute;
+    
+}
